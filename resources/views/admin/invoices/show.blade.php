@@ -14,7 +14,7 @@
                     </div>
                     <div class="flex space-x-2">
                         <span
-                            class="px-3 py-1 text-sm font-medium rounded-full 
+                            class="px-3 py-1 text-sm font-medium rounded-full
                         {{ $invoice->payment_status == 'paid'
                             ? 'bg-green-100 text-green-800'
                             : ($invoice->payment_status == 'pending'
